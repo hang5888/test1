@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <title>石龜溪導覽 Shigui, Yunlin Dounan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <script type="text/javascript" src="./js/header.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <!--語言-->
+        <section class="choose">
+            <p>中文 &emsp;/&emsp;English</p>
+        </section>
+        <!--選單-->
+        <section class="navbar">
+            <ul class="dropdowns">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <li><a href="about.html">關於</a></li>
+                <li><a href="#">近期活動 </a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">石龜溪景點</a>
+                    <div class="dropdown-content">
+                        <a href="shop.html">石龜溪小舖</a>
+                        <a href="temple.html">石龜溪天后宮 </a>
+                        <a href="shiguischool.html">石龜國小</a>
+                        <a href="rice.html">新大豐檜木碾米廠</a>
+                        <a href="station.html">石龜車站</a>
+                        <a href="soysauce.html">新芳園醬油</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">斗南景點</a>
+                    <div class="dropdown-content">
+                        <a href="dounmschool.html">雲林縣大東國小</a>
+                        <a href="house.html">偶的家-戲偶文創園區</a>
+                    </div>
+                </li>
+                <li><a href="#news">腳踏車租借</a></li>
+            </ul>
+        </section>
+
+    </header>
+    <!-- 輪播圖 -->
+    <section class="picture" style="padding: 50px;">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin: auto;width: 75%;z-index: 1;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="images/header04.jpg" class="d-block w-100" alt="Tianhou Temple">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/header02.jpg" class="d-block w-100" alt="Elementary school">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/header03.jpg" class="d-block w-100" alt="Elementary school">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/header01.jpg" class="d-block w-100" alt="Elementary school">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/header05.jpg" class="d-block w-100" alt="train station">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/header07.jpg" class="d-block w-100" alt="train station">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/header06.jpg" class="d-block w-100" alt="Rice mill">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--內文-->
+    <div>
+        <section class="body_text">
+            <article class="article01">
+                <ul>
+                    <!--公佈欄-->
+                    <div class="news" id="activity">
+                        <li>
+                            <h1>活動公告區</h1>
+                            <p style="font-weight:600;padding: 15PX;"></p>
+                            <p style="font-weight:400;"></p>
+                        </li>
+                    </div>
+                    <!--景點介紹-->
+                    <div id="Shigui">
+                        <h1>石龜景點</h1>
+                    </div>
+                    <!--第一橫排-->
+                    <table>
+                        <tr>
+                            <!--小舖-->
+                            <th>
+                                <img src="images/Shop01.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <!--background-images-->
+                                        <div class="modal-content" style="background-image: url(images/Shop.jpg) ;background-size: 100%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModalLabel">
+                                                    石龜溪小舖&emsp; Shigui Community shop</p>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div>
+                                                    <img src="images/Shop04.jpg">
+                                                    <p>
+                                                        簡介<br> 民國109年，9/19石龜溪小舖正式揭牌。
+                                                        <br> 國立虎尾科技大學文理學院團隊，於109年透過USR
+                                                        <br> (University Social Responsibility)計畫來到石龜溪聚落，攜手<br> 在地、展開合作與學習，經由踏查或是與文化札根相關之活動
+                                                        <br> 擾動社區，提升民眾參與度及地方文化的認同。
+                                                    </p>
+                                                </div>
+                                                <p>
+                                                    <br> 特色
+                                                    <br> 1.從社區眾多閒置空間中尋覓到一間竹管厝，並獲得沈屋主無償
+                                                    <br> 提供的支持，將之再造活化為「石龜溪小舖」。
+                                                    <br> 2.為地方文化展示推廣的平台，同時也是文化兼具創意的基地。
+                                                    <br> 3.小舖外頭的石龜彩繪陶板則是學校與地方一起協力完成的新造景。希望藉由創造新景點，重拾地方的故事與特色，並吸引更多人來認識充滿人情味的石龜溪。
+                                                    <br><br> 地址：63048雲林縣斗南鎮石龜里四維路32號
+                                                    <br> Facebook：https://www.facebook.com/石龜溪小舖-108156371137715
+                                                    <br>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <!--天后宮-->
+                            <th>
+                                <img src="images/Temple1.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label1" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <!--background-images-->
+                                        <div class="modal-content" style="background-image: url(images/Templebk.jpg) ;background-size: 100%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModalLabel">
+                                                    石龜溪天后宮
+                                                </P>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div>
+                                                    <img src="images/Temple3.jpg">
+                                                    <p>
+                                                        歷史<br> 清乾隆辛卯年（1771年），創建。明治39年（1906年）遇
+                                                        <br> 地震導致廟宇倒塌毀損，大正4年（1915年）地方募集重新復
+                                                        <br> 建，大正6年（1917年）工程完竣，並在大正14年（1925）11月
+                                                        <br> 舉行落成祭典，後續再歷經皇民化運動及嘉雲大地震等事件，現
+                                                        <br> 在已全部拆除重建，無法見到舊廟的傳統樣貌。每年仍香火
+                                                        <br> 鼎盛，吸引旅外遊子回鄉，平時也是鄰里休閒育樂的場所。
+                                                    </p>
+                                                </div>
+                                                <p>
+                                                    <br> 特色
+                                                    <br> 是石龜溪聚落的主要信仰中心，主祀神為天上聖母。
+                                                    <br> 此間廟宇對南靖厝、石龜溪、包厝莊等周邊聚落而言， 自古便是重要的信仰中心，亦是歷史相當久遠的祠廟。
+                                                    <br><br> 地址：63048雲林縣斗南鎮石龜里光天路50號 (石龜社區活動中心)<br> 電話：05-5978479
+                                                    <br> Facebook：https://www.facebook.com/qsc0724/?rf=115509461864550
+                                                    <br>
+                                                </p>
+                                                <p class="data">
+                                                    資料來源 國家文化記憶庫 http://data.yunlin-memory.cool/taxonomy/term/4914
+                                                    <br> 中央研究院人社中心地理資訊科學研究專題中心網站http://crgis.rchss.sinica.edu.tw/temples/YunlinCounty/dounan/0902008-THG
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr class="name">
+                            <td>石龜溪小舖</td>
+                            <td>石龜溪天后宮</td>
+
+                        </tr>
+                    </table>
+                    <!--第二橫排-->
+
+                    <table>
+                        <tr>
+                            <!--國小-->
+                            <th>
+                                <img src="images/school01.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModal3Label1" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div class="modal-content" style="background-image: url(images/school02.jpg) ;background-size: 100%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModal3Label">
+                                                    石龜國小
+                                                </p>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="images/schoo03.jpg">
+                                                <p>
+                                                    歷史<br> 民國8年4月，創立他里霧公學校石龜溪分校。
+                                                    <br> 民國11年4月，獨立為石龜溪公學校。
+                                                    <br> 民國15年2月，舉行第一屆畢業典禮。
+                                                    <br> 民國35年1月，改稱為斗南鎮第三國民學校。
+                                                    <br> 民國36年2月，改稱為斗南鎮石龜國民學校。
+                                                    <br> 民國57年8月，改稱為斗南鎮石龜國民小學。
+                                                    <br> 吉祥物：平安龜
+                                                    <br> 民國109年，創校101年時，國小歷屆家長會長及多名校友集資
+                                                    <br> 打造一隻約3公噸重的石龜送給學校，並由校方命名為「平安龜」，成為地方上的新景點。 黃致傑校長表示，這座大石龜是委請雲林陶藝協會前理事長、崙背鄉民代表李日存製作，石龜上的龜殼鑲嵌著師生、社區居民自製並署名的六角形陶板，等待日後校友或居民返回校園時，就能看到自己曾經參與的創作；在二〇二〇年因為肺炎疫情而處於不安的社會中，平安龜帶著平安歸的意義，傳遞最樸實又適切的祝福。
+                                                    <br><br> 地址: 63048雲林縣斗南鎮石龜里南生路1號
+                                                    <br> 網址: https://skes.ylc.edu.tw/
+                                                    <br>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <!--碾米廠-->
+                            <th>
+                                <img src="images/rice01.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModal4Label1" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div class="modal-content" style="background-image: url(images/rice03.jpg) ;background-size: 100%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModal4Label">
+                                                    新大豐碾米廠
+                                                </P>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <img src="images/rice02.jpg">
+                                                <p>
+                                                    歷史<br> 民國38年，新大豐碾米廠原名大豐碾米廠，位於斗南石龜溪，
+                                                    <br> 建於民國38年，是目前聚落內僅存的老碾米廠。
+                                                    <br> 民國58年，由陳昭平先生承接買下，並改名「新大豐碾米廠」。
+                                                    <br> 特色
+
+                                                    <br> 1.檜木碾米機：廠內有座幾乎全由檜木做成的碾米機，這是臺灣
+                                                    <br> 少數且至今都還能運作的碾米機，它藉由柴油發電機連動數條履
+                                                    <br> 帶，搭配類似齒輪的傳動構造進行碾米，最後輾完的白米會順著
+                                                    <br> 木製的溝槽滑
+                                                    <br> 落到集米的地方，過程中幾乎沒有經過金屬構件，因此碾出來的米並 不會帶靜電，吃起來口感會比較有古早味。
+                                                    <br> 2.新大豐的這台老碾米機要碾製成糙米就須經過七段循環的工序， 最後一關碾製白米的時候，因米種、含水量的不同，非有多年的經驗 和工夫難以做到完美。
+                                                    <br> 3.春香米：新大豐知名的「春香米」則是陳昭平老闆以太太的名字 「洪春香」，為自家米品牌取名。
+                                                    <br><br> 地址：63048雲林縣斗南鎮中和路44號
+
+                                                    <br> 電話：05-5972359
+                                                    <br>
+                                                </p>
+                                                <p class="data">
+                                                    資料來源 國家文化記憶庫 http://data.yunlin-memory.cool/data/CreativeWork/5690
+                                                    <br> http://data.yunlin-memory.cool/taxonomy/term/3395
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr class="name">
+                            <td>石龜國小</td>
+                            <td>新大豐碾米廠</td>
+                        </tr>
+                    </table>
+                    <!--第3橫排-->
+
+                    <table style="margin: auto; text-align: center">
+                        <tr>
+
+                            <th>
+                                <!--車站-->
+                                <img src="images/station03.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal1Label2" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg  modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content" style="background-image: url(images/station01.jpg) ;background-size: 200%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModalLabel">
+                                                    石龜車站 Shigui Station
+                                                </P>
+
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <img src="images/station02.jpg">
+                                                <p>
+                                                    歷史<br> 民國47年，10月24日啟用，設立「278K號誌站」。
+                                                    <br> 民國60年，7月20日改站名為「石龜站」並升級成簡易站，
+                                                    <br> 指定由斗南站管理。
+                                                    <br> 民國66年，5月1日由簡易站降級為招呼站。
+                                                    <br> 民國102年，9月30日啟用多卡通刷卡機。
+                                                    <br> 車站概要
+                                                    <br> 目前為招呼站(註)，僅有區間車停靠。
+                                                    <br> 2001年4月25日起全數電車班次均停靠。
+                                                    <br><br> 車站構造
+                                                    <br> 設有岸式月台兩座。
+                                                    <br> 車站周邊
+                                                    <br> 石龜溪、豐田工業區、石龜國小、下莊仔玄興宮、贊天宮感化堂、石龜溪天后宮、大埤市區
+                                                    <br> 註
+                                                    <br> 各站級設置標準：
+                                                    <br> 特等站：由《交通部臺灣鐵路管理局所屬分支機構組織通則》明定者。
+                                                    <br> 一等站：查定分數高於90分者，於修改《交通部臺灣鐵路管理局所屬分支機構組織通則》時列入考量，低於48分者降等。
+                                                    <br> 二等站：查定分數高於58分者升等，低於41分者降等。
+                                                    <br> 三等站：查定分數高於51分者升等。
+                                                    <br> 簡易站：僅派站員未派站長之車站一律列為簡易站。細分有簡易站、甲種簡易站、乙種簡易站、丙種簡易站等四種。
+                                                    <br> 招呼站：僅設有候車月台而無站員，並辦理客運業務。由三等站以上之車站管理。部份招呼站設有電子票證驗票機供持用電子票證的乘客使用。
+                                                    <br> 號誌站，不辦理客貨業務，只負責列車的避讓和交會信號控制。
+                                                    <br><br> 地址：63048雲林縣斗南鎮石龜里光天路50號 (石龜社區活動中心)<br> 電話：05-5978479
+                                                    <br> Facebook：https://www.facebook.com/qsc0724/?rf=115509461864550
+                                                </p>
+                                                <p class="data">
+                                                    資料來源 石龜車站. (2021, June 25). Retrieved from 維基百科，自由的百科全書： https://zh.wikipedia.org/wiki/石龜車站
+
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: rgba(255, 248, 220, 0);border:2px #9999ff00;color: rgb(54, 4, 0);">關閉</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th>
+                                <!--醬油-->
+                                <img src="images/soy01.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModal51Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg  modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content" style="background-image: url(images/soy03.jpg) ;background-size: 200%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModal5Label">
+                                                    石龜車站 Shigui Station
+                                                </P>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <img src="images/soy02.jpg">
+                                                <p>
+                                                    歷史<br> 民國34年，王坤城先生所創立，新芳園油廠位於
+                                                    <br> 台灣醬油之鄉－雲林。
+                                                    <br> 特色
+
+                                                    <br> 不上妝的醬油-新芳園醬油＜100%最純正醬油本色＞新芳園76
+                                                    <br> 年來一直堅持傳統純手工釀造，遵循12道古法釀製至少經歷
+                                                    <br> 半年時間淬釀，以無添加任何防腐劑、食品添加物和人工色
+                                                    <br> 素，來製作最天然最原始傳統醬油。
+                                                    <br> 傳統釀造黑豆醬油製作過程：
+                                                    <br> 1.煮豆：整顆黑豆、黃豆清洗後，浸泡在水中蒸煮熟透。
+                                                    <br> 2.製麴：早期的製麴方式是讓黑豆自然發霉，但由於空氣中也有一些
+                                                    <br> 雜菌會附著在黑豆上，影響黑豆的品質，故現在都是採用添加種麴的 方式來製麴。將種麴加入冷卻的黑豆中攪拌。 3.培麴：人工控制溫度，將竹簳層層架起，利用麻布保溫、空氣對流、屋頂的隔熱板，在七天內讓豆麴保持在不超過40度的生長溫度。
+                                                    <br> 4.洗麴：將發酵後之黑豆上的麴洗掉。
+                                                    <br> 5.拌鹽入甕：將黑豆放入陶甕中，再拌鹽入甕，放入鹽巴直至看不到黑豆，蓋上陶蓋後，在陽光下曝曬至少120到180天，讓黑豆充份發酵。將『黑豆』放入甕缸裡，在太陽底下曝曬而自然熟成的醬汁稱為蔭油。
+                                                    <br> 6.過濾壓榨：壓榨的動作之前會先抽出甕中部份的醬油原汁並過濾雜質，壓榨上層的黑豆豉會用來熬煮成商業用的醬汁，最底層最精華的醬汁稱為壺底油。
+                                                    <br><br> 工廠地址：63048雲林縣斗南鎮石溪里化日路25號，電話：05-5973-000
+
+
+                                                    <br> 門市地址：63043雲林縣斗南鎮南昌西路241號，電話：05-5978-017
+                                                    <br> Facebook：https://www.facebook.com/XinFangYuanJiangYou
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr class="name">
+                            <td>石龜車站</td>
+                            <td>新芳園醬油</td>
+                        </tr>
+                    </table>
+                    </li>
+                    <div id="Dounan">
+                        <h1>斗南景點
+                        </h1>
+                    </div>
+                    <!--第4橫排-->
+                    <table style="margin: auto; text-align: center ">
+                        <tr>
+                            <!--大東國小-->
+                            <th><img src="images/s02.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModal6Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div class="modal-content" style="background-image: url(images/s01.jpg) ;background-size: 100%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModal6Label">
+                                                    雲林縣大東國民小學 &emsp; Yunlin Dadong Elementary School</p>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="images/s03.jpg">
+                                                <p>
+                                                    歷史<br> 1. 民國10年5月10日，設立斗南公學校新崙分班，招收一年級新 生六十名。
+                                                    <br> 2. 民國11年，由新崙村遷移村外增建教室，於民國十二年四月一 日設立為斗南公學校新崙分校。
+                                                    <br> 3. 民國23年3月31日，獨立，改稱大東公學校，民國三十年四月 一日改稱大東國民學校。
+                                                    <br> 4. 民國31年1月，第一次遷校於現址，擴大學區為四個里(包括大 東 ，埤麻，西伯，新崙)。<br> 5. 民國34年10月，台灣光復，36/2/1改名"斗南鎮大東國民<br> 學校"。
+                                                    <br> 6. 民國57年8月，實施九年國民教育，改名"雲林縣斗南鎮大東 國民小學"
+                                                    <br><br> 地址 63049雲林縣斗南鎮新崙里港漧路1號
+                                                    <br> 網址 https://ttes.ylc.edu.tw/
+                                                    <br>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </th>
+
+                            <!--偶的家-->
+
+
+                            <th><img src="images/h03.jpg" style="width: 100%;" class="btn btn-primary1" alt="Tianhou Temple" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModal7Label1" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div class="modal-content" style="background-image: url(images/h04.jpg) ;background-size: 100%;">
+                                            <div class="modal-header">
+                                                <p class="modal-title" id="exampleModal7Label">
+                                                    石龜溪天后宮
+                                                </P>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <img src="images/h02.jpg">
+                                                <p>
+                                                    歷史<br> 民國104年，7月4日成立「偶的家-戲偶文創園區」。
+
+                                                    <br> 簡介
+                                                    <br> 1.「偶的家-戲偶文創園區」是臺灣製作傳統布袋戲老店，第二
+
+                                                    <br> 代的兒子「徐建彰」師傅、女兒「徐依裟」，繼承已故父親
+                                                    <br> 「徐炎卿」大師，將傳統產業轉型至觀光模式，讓家族製作布袋 戲將近60年的臺灣傳統產業，有更多人可以體驗認識、
+                                                    <br> 文化推廣。
+                                                    <br> 2.臺灣布袋戲從傳統掌中大小，經歷各種娛樂需求轉型。從路邊
+                                                    <br> 「籠底戲」演化成「野台」，轉換到室內「內臺戲」，又因特效
+                                                    <br> 發展出「金光布袋戲」，最後結合流行文化成為精緻的「電視偶」， 並且參與電視、電影演出。
+                                                    <br> 3.徐建彰師傅傳承工藝世家，經歷各時期掌中風華，對於各時期 戲偶製作，皆有紮實的經驗與功力。
+                                                    <br><br> 地址 63043雲林縣斗南鎮建國三路506號
+                                                    <br> No. 506, Jianguo 3rd Rd., Dounan Township, Yunlin County 630, Taiwan (R.O.C.)<br> 電話︰(05)597-0699
+                                                    <br> Facebook：https://www.facebook.com/Taiwan.My.Puppets
+                                                    <br>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button1" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th>
+                                <tr class="name">
+                                    <td>雲林縣大東國民小學</td>
+                                    <td>偶的家-戲偶文創園區</td>
+                                </tr>
+                            </th>
+                    </table>
+                </ul>
+            </article>
+
+            <article class="article02">
+                <h1>相關單位超連結</h1>
+                <h5>
+                    <a href="https://www.facebook.com/石龜社區發展協會-100402583418147" target="_blank">石龜社區發展協會</a>
+                </h5>
+                <h1>相關活動</h1>
+
+                <img src="images/a02.jpg" style=width:100%;height:auto alt="fb article">
+                <h6>
+                    <br> 恭喜！恭喜！新年快樂！
+                    <br> ❤️石龜溪小舖！
+                    <br> 初一 .初二 小舖休息喔！<br> 因為小舖 舖長 過年要去黑皮ㄧ下！<br> 初三～初五 都有開放！歡迎參觀！<br> 初三是西洋情人節耶！
+                    <br> 來小舖請您吃甜蜜巧克力～
+                    <br> 沒情人的！歡迎來找舖長聊天喔！
+                    <br> ㊗️福大家 牛年行大運！<br>
+                </h6>
+                <h6 class="date">2021年02月12日</h6>
+
+                <iframe src="https://www.facebook.com/plugins/video.php?height=322&href=https%3A%2F%2Fwww.facebook.com%2F108156371137715%2Fvideos%2F245069973704003%2F&show_text=false&width=560&t=0" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no"
+                    frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" alt="fb article"></iframe>
+                <h6>
+                    <br> 明天1/1日~早上10：00~15：00
+                    <br> ❤石龜國小109年推動社區多功能學習中心計劃成果展❤
+                    <br> 地點~他里霧生活美學館
+                    <br> 生活創作與陶藝創作師生聯展
+                    <br> 明日活動~生活美學館室外~
+                    <br> 有擺設石龜社區文創商品及（龜去來）餅乾喔！
+                    <br> 歡迎大家來參加❤
+                    <br>
+                </h6>
+                <h6 class="date">2020年12月31日</h6>
+            </article>
+        </section>
+    </div>
+    <!--footer-->
+    <footer>
+        <br>
+        <p>版權：石龜社區發展協會Copyright © 2020 All Right Reserved
+            <br> 63048雲林縣斗南鎮石龜里光天路76號 63048雲林縣斗南鎮石龜里光天路50號(石龜社區活動中心)
+            <br> 製作單位：國立虎尾科技大學文理學院USR Team (https://caas.nfu.edu.tw)
+        </p>
+        <a href="https://www.facebook.com/%E7%9F%B3%E9%BE%9C%E6%BA%AA%E5%B0%8F%E9%8B%AA-108156371137715/?ref=page_internal" target="_blank "><img src="images/footer02.png" alt="HTML tutorial" width="10%" height="auto"></th>
+        </a>
+        <a href="https://www.google.com/maps/place/630%E9%9B%B2%E6%9E%97%E7%B8%A3%E6%96%97%E5%8D%97%E9%8E%AE%E7%9F%B3%E9%BE%9C%E6%BA%AA/@23.6401916,120.4635204,14z/data=!3m1!4b1!4m5!3m4!1s0x346eb902b0479765:0x24c199b7346e4cd4!8m2!3d23.640193!4d120.48103F" target="_blank "><img src="images/footer01.png" alt="HTML tutorial" width="10%" height="auto"></a>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

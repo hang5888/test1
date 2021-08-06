@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    /* background-image: url(images/bk.jpg);*/
+}
+
+
+/* Style the header */
+
+.wrapper {
+    min-height: calc(100% - 260px);
+    text-align: center;
+    background-color: #b7c5c7;
+    padding-top: 150px;
+}
+
+.title {
+    width: 65%;
+    margin: auto;
+    color: #404040;
+}
+
+.title h1 {
+    font-size: 2em;
+    font-weight: bold;
+}

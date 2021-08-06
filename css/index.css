@@ -1,0 +1,140 @@
+/* Container for flexboxes */
+
+body {
+    background-color: #b7c5c7;
+}
+
+.news li {
+    width: 100%;
+    margin: auto;
+    height: 200px;
+}
+
+.news h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #404040;
+    font-weight: bold;
+}
+
+.news p {
+    color: #404040;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*切版*/
+
+.body_text {
+    display: -webkit-flex;
+    display: flex;
+    width: 65%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.article01 {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+}
+
+.article01 table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.article01 .data {
+    font-size: .5em;
+}
+
+
+/* Style the content */
+
+.article02 {
+    padding: 10px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 85%;
+}
+
+.article02 h1 {
+    color: #404040;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.article02 h5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.article02 a {
+    text-align: center;
+    color: #404040;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .7em;
+}
+
+.article02 h6 {
+    line-height: 150%;
+    font-weight: 600;
+    color: #404040
+}
+
+.date {
+    text-align: right;
+    color: #404040;
+}
+
+
+/*modal style*/
+
+.modal-header {
+    background-color: rgb(255, 252, 240);
+}
+
+.modal-title {
+    color: rgb(145, 82, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.modal-body div {
+    overflow: hidden
+}
+
+.modal-body img {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+
+.modal-body p {
+    color: rgb(82, 43, 7);
+    text-align: left;
+}
+
+.modal-footer button {
+    background-color: rgba(255, 248, 220, 0);
+    border: 2px #9999ff00;
+    color: rgb(54, 4, 0);
+}
+
+.name {
+    color: #404040;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+}

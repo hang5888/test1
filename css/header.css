@@ -1,0 +1,144 @@
+/* Style the header */
+
+header {
+    z-index: 10;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+/*語言切換*/
+
+.choose {
+    background-color: #b7c5c7;
+    height: 32px;
+    padding: 0 -20px;
+    width: 100%;
+}
+
+.choose p {
+    margin-bottom: 0px;
+    font-size: .3em;
+    padding: 7px 70px;
+    float: right;
+}
+
+
+/*選單*/
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    font-size: .7em;
+    background-color: rgb(238, 229, 227);
+}
+
+.navbar ul {
+    z-index: 10;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(238, 229, 227);
+}
+
+.navbar li {
+    float: left;
+    line-height: 70px;
+    margin: auto;
+    text-decoration: none;
+    color: rgb(160, 95, 57);
+    font-weight: bold;
+    width: 200px;
+}
+
+
+/*選單字體*/
+
+.navbar li a,
+.dropbtn {
+    display: inline-block;
+    padding: 0px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(189, 69, 0);
+    font-weight: bold;
+}
+
+.navbar img {
+    float: left;
+    line-height: 100px;
+    padding: 10px 50px;
+}
+
+
+/*選單觸碰被景色*/
+
+.navbar li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(255, 203, 203);
+    width: 200px;
+}
+
+.navbar li.dropdown {
+    display: inline-block;
+}
+
+
+/*下拉背景*/
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(238, 229, 227);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/*下拉字體*/
+
+.navbar .dropdown-content a {
+    color: rgb(207, 157, 128);
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+/*下拉觸碰背景*/
+
+.navbar .dropdown-content a:hover {
+    background-color: #e7c6c6;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+
+/*固定導覽列*/
+
+.navFixed {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    min-width: 100%;
+    opacity: 0.94;
+    transition: opacity .5s ease-out;
+}

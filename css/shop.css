@@ -1,0 +1,88 @@
+.title {
+    position: relative;
+}
+
+.title img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.title div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title p {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.text {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.text h1 {
+    margin-top: 30px;
+}
+
+.text p {
+    letter-spacing: 5px;
+    font-size: 1em;
+    margin: 0px;
+}
+
+.text a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 5px
+}
+
+.text div {
+    margin-top: 30px;
+}
+
+.image {
+    margin-top: 30px;
+    width: 65%;
+    height: auto;
+}
+
+.image img {
+    width: 500px;
+}
+
+.map {
+    width: 60%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin: auto;
+    height: auto;
+}
+
+.map p {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.form {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+}
+
+.form p {
+    letter-spacing: 2px;
+    font-size: .5em;
+}
